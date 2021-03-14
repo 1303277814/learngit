@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: url(../img/cursor.cur),default;
+}
+.body{
+    background-image: url(../img/bgbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+.main{
+    position: relative;
+}
+
+#top{
+    position: relative;
+}
+#bg{
+    /* background-image: url(../img/background.jpg); */
+    height: 320px;
+    background-position: center;
+    z-index: -2;
+    position: relative;
+    min-width: 1090px;
+}
+#color{
+    position: absolute;
+   /* background:rgba(66,64,64,.2) ;  */
+   width: 100%;
+    /* top: 0; */
+    /* left: 0; */
+    /* right: 0; */   /*100%和0 两者的区别是什么 */
+    /* bottom: 0; */
+    height: 100%;
+    z-index: -1;
+}
+#menu{
+    background-color:rgba(40,42,44,.6) ;
+    position: fixed;
+    height: 43px;
+    left: 0;
+    width: 100%;
+    z-index: 1
+}
+.menu_one{
+    display: flex;
+    margin-right: 9%;
+    height: 43px;
+    align-items: center;
+    font-size: 19px;
+    margin-left: 12%;
+    min-width: 800px;
+}
+.a_one{
+    padding-left: 7%;
+    padding-right: 3%;
+}
+
+.a_one:link{
+    color: white;
+    text-decoration: none;
+    cursor: url(../img/pointer.cur),default;
+}
+
+.a_one:visited{
+    color: white;
+    text-decoration: none;
+    cursor: url(../img/pointer.cur),default;
+}
+.a_one:hover{
+    color: plum;
+    text-decoration: none;
+    cursor: url(../img/pointer.cur),default;
+}
+#blog_main{
+    text-align: center;
+    padding-top:128px;
+    font-size: 30px;
+    color: white;
+}
+#end{
+    position: relative;
+    /* float: none; */
+    /* height: 250px; */
+    position: absolute;
+    bottom: 0;
+    /* color: black; */
+    background-color: black;
+    height: 16%;
+    width: 100%;
+    left: 0;
+}
+.user{
+    padding-bottom: 1%;
+    display: contents;
+    color: white;
+
+}
+.new_user{
+    display: flex;
+    justify-content: center;
+}
+.button_login{
+    font-size: 21px;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.middle_ones{
+    font-size: 31px;
+    text-align: center;
+    color: aquamarine;
+    padding-bottom: 50px;
+}
+.bg_login{
+    background-image: url(../img/login.jpg);
+    height: 937px;
+}
+#resister{
+    font-size: 21px;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color:aquamarine;
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+}
+#login{
+    color: aqua;
+    padding-left: 13%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+#login_one{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 200px;
+    color: darkorange;
+}
+#register{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 200px;
+    color: darkorange;
+}
+#my{
+    color: pink;
+}
+a:visited{
+   color: blueviolet;
+}
+a:hover{
+    color:darkorange;
+}
+.logout{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.logout:visited{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+#my:visited{
+    color: pink;
+}
+
+.middle{
+    padding-top: 25px;
+}
+.middle_margin{
+    height: 59px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.notice{
+    width: 66%;
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 22px;
+    padding: 1%;
+    margin-top: 4%;
+    font-size: 22px;
+    color: blueviolet;
+    margin-top: 2%;
+}
+.notice_a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-bottom: 2%;
+}
+.notice_a:visited{
+    color: blueviolet;
+    text-decoration: none;
+}
+.notice_a:hover{
+    color: blueviolet;
+    text-decoration: none;
+}
+.middle_me{
+    height: 800px;
+    margin-right: 82px;
+    border: 4px solid;
+    border-radius: 25px;
+    color: yellowgreen;
+}
+.xiaoyu{
+    float: right;
+    width: 26%;
+}
+.me{
+    font-size: 27px;
+    text-align: center;
+}
+.me_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.me_img{
+    width: 94%;
+    margin-top: 40px;
+}
+.myself{
+    padding-top: 41px;
+    font-size: 20px;
+    color: deepskyblue;
+    line-height: 45px;
+}
+.paging{
+    font-size: 25px;
+    margin-top: 22px;
+    text-align: center;
+    margin-right: 175px;
+    text-decoration: none;
+}
+.con_tit{
+    text-align: center;
+    font-size: 30px;
+}
+.con_aut{
+    text-align: end;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    height: 109px;
+    font-size: 15px;
+    border-radius: 12px;
+    width: 91%;
+    cursor: url(../img/pointer.cur),default;
+}
+.users{
+    height: 26px;
+    width: 23%;
+    margin-bottom: 17px;
+    cursor: url(../img/pointer.cur),default;
+}
+.btn{
+    height: 63px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    font-size: 21px;
+    cursor: url(../img/pointer.cur),default;
+    width: 50%;
+}
+#menu{
+    background-color: rgba(40,42,44,.6);
+    height: 43px;
+    left: 0;
+    width: 100%;
+}
+.menu_one{
+    display: flex;
+    margin-right: 9%;
+    height: 43px;
+    align-items: center;
+    font-size: 19px;
+    margin-left: 12%;
+    justify-content: space-around;
+
+}
+.mains{
+    margin-top: 55px;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: antiquewhite;
+    font-size: 18px;
+}
+.middle_one{
+    font-size: 24px;
+    color: white;
+    padding-top: 2%;
+    color: bisque;
+}
+.flex{
+    display: flex;
+}
+.content_one{
+    width: 83%;
+    margin-top: 45px;
+    border: 2px solid antiquewhite;
+    border-radius: 12px;
+}
+#search{
+    width: 246px;
+    height: 37px;
+    border: 1px solid;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+#submit_one{
+    font-size: 19px;
+    height: 31px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    color: blueviolet;
+    background-color: antiquewhite;
+    opacity: 0.78;
+}
+.search_one{
+    margin-top: 14%;
+    margin-left: 8%;
+}
+.fform{
+    position: relative;
+}
